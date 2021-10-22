@@ -19,10 +19,12 @@ Note, if you see an open File Server, you might be able to read (and write to) t
     17019/tcp open  unknown
     17020/tcp open  unknown
 
-**PXE Server**<br />
+**TFTP or PXE Server**<br />
 
     PORT   STATE         SERVICE VERSION
     69/udp open          tftp    Plan 9 tftpd
+
+Note, if you see an open tftp server, you might be able to read (and write to) the filesystem with the "none" user.
 
 **Web Server**<br />
 
